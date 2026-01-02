@@ -25,7 +25,7 @@ import time
 # ============================================
 # If your SUMO is not found automatically, paste the path here
 # Example: r"C:\Program Files (x86)\Eclipse\Sumo"
-CUSTOM_SUMO_PATH = "C:\Program Files (x86)\Eclipse\Sumo" 
+CUSTOM_SUMO_PATH = r"C:\Program Files (x86)\Eclipse\Sumo" 
 
 print("\n" + "="*70)
 print("TRAFFIC LIGHT CONTROL - SUMO DATASET")
