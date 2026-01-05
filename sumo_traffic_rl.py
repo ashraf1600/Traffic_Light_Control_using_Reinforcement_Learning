@@ -644,7 +644,7 @@ if __name__ == "__main__":
     
     # SETTINGS
     EPISODES = 30       # More episodes for better learning
-    USE_GUI = False     # Set True to visualize
+    USE_GUI = True    # Set True to visualize
     
     # TRAIN
     try:
