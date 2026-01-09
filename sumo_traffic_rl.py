@@ -10,7 +10,7 @@ Key Improvements:
 5. Prioritized experience replay
 6. Better hyperparameters
 
-Run: python sumo_traffic_rl_improved.py
+Run: python sumo_traffic_rl_improved.py.
 """
 
 import os
