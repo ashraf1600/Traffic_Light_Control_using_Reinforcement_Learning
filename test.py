@@ -52,6 +52,7 @@ class ImprovedSUMOEnv:
 
     def _get_metrics(self):
         lanes = set(traci.trafficlight.getControlledLanes(self.tl_id)) if self.tl_id else []
+        
         return sum(traci.lane.getWaitingTime(l) for l in lanes), sum(traci.lane.getLastStepHaltingNumber(l) for l in lanes)
   
     def _get_veh_count(self):
