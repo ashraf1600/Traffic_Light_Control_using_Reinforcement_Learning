@@ -3,9 +3,9 @@
 
 ![SUMO Simulation](Screenshot 2026-01-20 132642.png)
 
+
 ### 📊 Training Performance (Reward/Loss Graph)
 
-![Training Graph](images/training_graph.png)
 
 ### 🚥 Intersection View
 
