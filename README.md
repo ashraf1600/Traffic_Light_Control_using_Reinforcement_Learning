@@ -1,7 +1,7 @@
 
 ### 🛣 SUMO Traffic Simulation
 
-![SUMO Simulation](images/sumo_simulation.png)
+![SUMO Simulation](Screenshot 2026-01-20 132642.png)
 
 ### 📊 Training Performance (Reward/Loss Graph)
 
@@ -13,12 +13,6 @@
 
 ---
 
-## ⚙ Prerequisites
-
-1. **Python 3.x**
-2. **SUMO Traffic Simulator**
-   Download from:
-   👉 [https://sumo.dlr.de/docs/Downloads.html](https://sumo.dlr.de/docs/Downloads.html)
 
 ---
 
@@ -131,19 +125,3 @@ CUSTOM_SUMO_PATH
 CUET | CSE
 Traffic Control using Reinforcement Learning
 
----
-
-## ⭐ If you like this project
-
-Give it a star ⭐ on GitHub!
-
----
-
-যদি তুমি চাও আমি:
-
-✅ GitHub compatible badges যোগ করি
-✅ Center aligned images করি
-✅ GIF demo section বানাই
-✅ Professional research style README বানাই
-
-বললেই করে দেব 😎
