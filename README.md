@@ -1,44 +1,149 @@
-# Traffic Light Control with Reinforcement Learning (DQ
 
-This project implements a Traffic Light Control system using SUMO (Simulation of Urban MObility) and a Deep Q-Network (DQN) agent.
+### 🛣 SUMO Traffic Simulation
 
-## Prerequisites
+![SUMO Simulation](images/sumo_simulation.png)
 
-1.  **Python 3.x**
-2.  **SUMO Traffic Simulator**: Download and install from [sumo.dlr.de](https://sumo.dlr.de/docs/Downloads.html).
+### 📊 Training Performance (Reward/Loss Graph)
 
-## Setup
+![Training Graph](images/training_graph.png)
 
-1.  **Install Dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
+### 🚥 Intersection View
 
-2.  **Configure SUMO**:
-    The script attempts to automatically find your SUMO installation.
-    
-    *   **If you have installed SUMO**: The script should find it in standard locations (e.g., `C:\Program Files (x86)\Eclipse\Sumo`).
-    *   **If it fails**: Open `sumo_traffic_rl.py` and set the `CUSTOM_SUMO_PATH` variable at the top:
-        ```python
-        CUSTOM_SUMO_PATH = r"C:\Path\To\Your\Sumo"
-        ```
+![Traffic Intersection](Screenshot 2026-01-20 132642.png)
 
-## Running the Project
+---
 
-Run the main script:
+## ⚙ Prerequisites
+
+1. **Python 3.x**
+2. **SUMO Traffic Simulator**
+   Download from:
+   👉 [https://sumo.dlr.de/docs/Downloads.html](https://sumo.dlr.de/docs/Downloads.html)
+
+---
+
+## 🛠 Setup
+
+### 1️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 2️⃣ Configure SUMO
+
+The script tries to automatically detect your SUMO installation.
+
+✅ If SUMO is installed normally, it should work automatically.
+
+❌ If not detected:
+
+Open `sumo_traffic_rl.py` and update:
+
+```python
+CUSTOM_SUMO_PATH = r"C:\Path\To\Your\Sumo"
+```
+
+Example:
+
+```python
+CUSTOM_SUMO_PATH = r"C:\Program Files\Eclipse\Sumo"
+```
+
+---
+
+## ▶ Running the Project
+
+Run the main training file:
 
 ```bash
 python sumo_traffic_rl.py
 ```
 
-## Project Structure
+---
 
-*   `sumo_traffic_rl.py`: Main training script.
-*   `cross3ltl.sumocfg`: SUMO configuration file.
-*   `net.net.xml`: Network definition (intersections, lanes).
-*   `input_routes.rou.xml`: Traffic flow definitions.
+## 📁 Project Structure
 
-## Troubleshooting
+```
+Traffic-Light-RL/
+│
+├── sumo_traffic_rl.py      # Main training script
+├── cross3ltl.sumocfg      # SUMO configuration
+├── net.net.xml            # Road network definition
+├── input_routes.rou.xml   # Traffic routes
+├── requirements.txt
+└── images/
+```
 
-*   **Unicode/Emoji Errors**: The script has been cleaned to work on standard Windows terminals.
-*   **"SUMO_HOME not set"**: This means the script cannot find SUMO. Please double-check your installation path and update `CUSTOM_SUMO_PATH` if necessary.
+---
+
+## 🧠 Technology Stack
+
+* Python
+* Deep Q-Network (DQN)
+* SUMO Simulator
+* NumPy
+* TensorFlow / PyTorch (if used)
+
+---
+
+## ❗ Troubleshooting
+
+### ⚠ Unicode / Emoji Error
+
+✔ Script optimized for Windows CMD & PowerShell
+
+---
+
+### ⚠ SUMO_HOME Not Set
+
+Error:
+
+```
+SUMO_HOME not set
+```
+
+✔ Solution:
+
+* Verify SUMO installation
+* Set correct path in:
+
+```python
+CUSTOM_SUMO_PATH
+```
+
+---
+
+## 📌 Future Improvements
+
+* Multi-intersection support
+* PPO / A3C RL algorithms
+* Real-time visualization dashboard
+* Reward function optimization
+
+---
+
+## 👨‍💻 Author
+
+**Ashraful Islam**
+CUET | CSE
+Traffic Control using Reinforcement Learning
+
+---
+
+## ⭐ If you like this project
+
+Give it a star ⭐ on GitHub!
+
+---
+
+যদি তুমি চাও আমি:
+
+✅ GitHub compatible badges যোগ করি
+✅ Center aligned images করি
+✅ GIF demo section বানাই
+✅ Professional research style README বানাই
+
+বললেই করে দেব 😎
