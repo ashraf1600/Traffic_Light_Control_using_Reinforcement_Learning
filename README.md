@@ -1,4 +1,4 @@
-# Traffic Light Control with Reinforcement Learning (DQN)
+# Traffic Light Control with Reinforcement Learning (DQ
 
 This project implements a Traffic Light Control system using SUMO (Simulation of Urban MObility) and a Deep Q-Network (DQN) agent.
 
